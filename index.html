@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moling</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="asset/Molinge white 2.png" type="image/x-icon">
 </head>
 <body>
@@ -28,7 +29,7 @@
       
         </nav>
         <header>
-            <div class="cover">
+            <div class="cover" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos-offset="200">
                 <h1>From <span>Douala </span>to <span>Lagos</span> to <span>Capetown</span>
                     Buy or sell your Properties</h1>
                 <div >
@@ -39,11 +40,11 @@
         </header>
     </section>
     <main>
-        <section id="Property">
-            <div class="fig">
+        <section id="Property" >
+            <div class="fig" data-aos="fade-right">
                
             </div>
-            <div class="property">
+            <div class="property" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <div class="block">
                     <div class="inner">
                         <img src="./asset/Group.png" alt="">      
@@ -83,12 +84,12 @@
         </section>
         <section id="consultation">
             <div class="row1">
-            <div class="book">
+            <div class="book" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-sine">
             <h2>Book A <span> Consultation</span></h2>
                 <p>We provide expert advise on real estate at the convenience of your mobile phone</p>
             </div>
-            <div class="article">
-                <article>
+            <div class="article" >
+                <article data-aos="fade-right" data-aos-duration="3500" data-aos-easing="ease-in-sine">
                     <div class="land">
                         <p><img src="./asset/Vector.png" alt="" > land/Housing</p>
                         <p><img src="./asset/Vector (1).png" alt="" >Listing/Selling/Partnership</p>
@@ -104,7 +105,7 @@
                         <p><img src="./asset/Vector (8).png" alt="">Workshop/Training</p>
                     </div>
                 </article>
-                <figure id="calling">
+                <figure id="calling" data-aos="fade-down" data-aos-duration="6000">
                     
                 </figure>
            
@@ -120,7 +121,7 @@
             Register with us as an agent, let's close deals and you
              get a fair commission.</p>
             </div>
-            <div class = "last">
+            <div class = "last" data-aos="fade-up" data-aos-duration="6000">
                 <div class="image">
                     <div class="src srco"></div>
                     <div class="write">
@@ -159,5 +160,9 @@
             </div>
             <button class="btn">Register as an agent</button>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

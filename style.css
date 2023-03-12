@@ -293,18 +293,20 @@ footer {
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 398px;
+    height: 580px;
     background-color: var(--white);
     margin: 10px;
-    border-radius: 18px;
+    
+    border-radius: 38px;
     overflow-y: hidden;
 }
 
 .last {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 2em;
-    max-width: 90%;
 }
 
 .feet {
@@ -394,6 +396,7 @@ footer {
     border-radius: 20px;
 }
 
+
 .srce {
     background-image: url("./asset/WhatsApp\ Image\ 2022-08-25\ at\ 10.20\ 1.png");
     background-size: cover;
@@ -414,6 +417,7 @@ footer {
     
  
 }
+
 @media (max-width: 767px) {
     ul {
         display: none;
@@ -480,7 +484,6 @@ footer {
     .book h2 {
         font-size: 20px;
         line-height: 30px;
-        background-color: pink;
     }
 
     .article {
@@ -512,5 +515,30 @@ footer {
     .btn {
         margin: 0 auto;
     }
+
+    .last {
+        flex-direction: column;
+      
+    }
+
+    .image {
+        margin-top: 30px;
+        padding-top: 10px;
+        border-radius: 50px;
+    }
+
+    .feet {
+        width: 100%;
+    }
+
+    .feet h3 {
+        font-size: 26px;
+    }
+
+  .feet p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
 }

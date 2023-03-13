@@ -92,7 +92,7 @@ li a {
 
 header {
     background-image: url("./asset/3d-rendering-la-modern-contemporary-house-wood-concrete-early-evening\ copy\ 1.jpg");
-    min-height: calc(100vh - 50px);
+   height: 800px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -142,7 +142,6 @@ h1 span {
 
 #Property {
     display: flex;
-    min-height: 100vh;
     margin: 2em 0;
     justify-content: space-between;
     /* background-color: red; */
@@ -211,8 +210,6 @@ h1 span {
 }
 
 #consultation {
-    /* background-color: #07e73f; */
-    min-height: 100vh;
     padding: 2em 0;
 }
 
